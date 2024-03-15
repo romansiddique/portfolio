@@ -28,7 +28,7 @@ h1{
 }
 section{
     height: 500px;
-    
+    padding-bottom: 150px;
 }
 
 .anchor-tag{
@@ -40,4 +40,28 @@ section{
     font-weight: 700;
     padding: 10px 20px;
     
+}
+
+.hero{
+    text-decoration: none;
+    background-image: linear-gradient(45deg goldenrod,red);
+    color: white;
+    border-radius: 7px;
+    background-color: orange;
+    font-weight: 700;
+    padding: 10px 40px;
+    
+}
+
+.sorry{
+    color: goldenrod;
+}
+.teacher{
+    color: orange;
+}
+
+.bottom-banner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }

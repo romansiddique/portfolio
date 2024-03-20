@@ -70,20 +70,23 @@ h1{
  .sorry:hover{
     background-color: yellow;
     color: black;
+    width: fit-content;
    
  }
 
  .box-shadow{
+   padding: 13px;
     box-shadow: 10px 10px 40px gray;
     border-radius: 7px;
-    height: 60%;
+    height: 50%;
     background-color: white;
+    margin-top: 85px;
     
 
  }
 #full-stack-dev{
     border-left: 7px solid;
-    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image: linear-gradient(180deg,rgb(8, 8, 7),rgb(220, 244, 2));
     border-image-slice: 1;
 }
 #baby-dev{
@@ -95,6 +98,7 @@ h1{
  .experiences{
     
     background-image: url("images/exp-bg.png");
+    background-size: 12%;
     background-repeat: no-repeat;
     background-position: left;
  }
